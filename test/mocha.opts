@@ -1,0 +1,6 @@
+--compilers js:espower-babel/guess
+--require ./test/test-helper
+--ui bdd
+--reporter dot
+--timeout 5000
+--recursive

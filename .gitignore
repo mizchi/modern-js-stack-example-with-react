@@ -1,0 +1,8 @@
+node_modules/*
+!node_modules/src
+!node_modules/ui
+!node_modules/application
+!node_modules/domain
+!node_modules/framework
+!node_modules/test
+public/bundle.js
