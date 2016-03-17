@@ -10,8 +10,8 @@ dependencies:
 test:
   override:
     - npm run test:all:ci
+    - npm run build
 general:
   branches:
     ignore:
       - gh-pages # list of branches to ignore
-      - /release\/.*/ # or ignore regexes
