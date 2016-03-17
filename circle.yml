@@ -9,7 +9,7 @@ dependencies:
     - node_modules
 test:
   override:
-    - npm run test:all
+    - npm run test:all:ci
 general:
   branches:
     ignore:

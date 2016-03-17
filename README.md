@@ -3,7 +3,7 @@
 - babel
 - flowtype
 - eslint
-- Test with mocha/istanbul/power-assert
+- Test with mocha/power-assert
 - circle ci
 
 ## Install

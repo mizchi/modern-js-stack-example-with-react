@@ -4,12 +4,14 @@
   "description": "mizchi's stack",
   "main": "index.js",
   "scripts": {
-    "test": "$(npm bin)/istanbul test $(npm bin)/_mocha -- test",
+    "test": "$(npm bin)/mocha",
     "test:all": "npm run typecheck && npm run lint && npm test",
-    "typecheck": "$(npm bin)/flow",
+    "test:all:ci": "npm run typecheck:ci && npm run lint && npm test",
+    "typecheck": "flow",
+    "typecheck:ci": "$(npm bin)/flow",
     "lint": "$(npm bin)/eslint src test",
-    "test-with-typecheck": "npm run typecheck && npm test",
-    "watch": "watchify -t babelify -o public/bundle.js -d src/index.js -v"
+    "watch": "$(npm bin)/watchify -v -t babelify -o public/bundle.js -d src/index.js",
+    "build": "$(npm bin)/browserify  -t babelify -o public/bundle.js src/index.js"
   },
   "author": "mizchi",
   "license": "MIT",
