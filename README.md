@@ -4,7 +4,6 @@
 - flowtype
 - eslint
 - Test with mocha/istanbul/power-assert
-- Inferno instead of React
 
 ## Install
 
