@@ -25,4 +25,5 @@ npm run typecheck # flow
 ## Recommended Env (mizchi's env)
 
 - Atom
-- https://atom.io/packages/linter-flow
+- linter-flow
+- linter-eslint
