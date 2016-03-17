@@ -1,9 +1,10 @@
-# flowtype-inferno-example
+# Modern js project example recommended by mizchi
 
 - babel
 - flowtype
 - eslint
 - Test with mocha/istanbul/power-assert
+- circle ci
 
 ## Install
 
