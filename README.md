@@ -8,9 +8,22 @@
 
 ## Install
 
-```
-brew install flow # or other way to install flowtype
-npm install
+```sh
+$ brew install flow # or other way to install flowtype
+
+$ npm install
+
+# run
+$ npm run watch # to develop
+# open public/index.html
+
+# develop
 npm test # to run test
-npm run watch # to develop
+npm run lint # eslint
+npm run typecheck # flow
 ```
+
+## Recommended Env (mizchi's env)
+
+- Atom
+- https://atom.io/packages/linter-flow
