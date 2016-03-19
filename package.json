@@ -25,6 +25,7 @@
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
+    "enzyme": "^2.1.0",
     "eslint": "^2.4.0",
     "espower-babel": "^4.0.1",
     "flow-bin": "^0.22.1",
@@ -32,10 +33,12 @@
     "istanbul": "^0.4.2",
     "mkdirp": "^0.5.1",
     "mocha": "^2.4.5",
-    "power-assert": "^1.3.1"
+    "power-assert": "^1.3.1",
+    "react-addons-test-utils": "^0.14.7",
+    "watchify": "^3.7.0"
   },
   "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "react": "^15.0.0-rc.2",
+    "react-dom": "^15.0.0-rc.2"
   }
 }
