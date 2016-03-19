@@ -3,6 +3,7 @@
   "plugins": [
     "syntax-flow",
     "transform-flow-strip-types",
+    "transform-class-properties",
     "babel-plugin-syntax-jsx"
   ]
 }
